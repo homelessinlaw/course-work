@@ -21,7 +21,7 @@ int main()
 	float CurrentFrame = 0; // хранит текущ кадр
 	Player p(heroimage, 250, 250, 64.0, 64.0,"hero");
 	Enemy enemy(Easyenemyim, 850, 671, 64.0, 64.0, "EasyEnemy");
-	animatedobj fire(fireim, 600, 300, 80.0, 80.0,"fire");
+	animatedobj fire(fireim, 600, 300, 80.0, 80.0,"fire");//слава хуесос и суворовец
 	Image map_image;
 	map_image.loadFromFile("images/map.png");
 	Texture map;
